@@ -101,6 +101,11 @@
 	  });
   
 	 });
+	 $(window).keydown(function(event) {
+	   if(event.ctrlKey||event.metaKey && event.keyCode == 80) { 
+ 	      $('.alert').hide();	
+ 	  };
+	 });
 	</script>
 
 
@@ -156,7 +161,7 @@
 				<li class="full-width-list">Designed branding campaigns featured in the <em>New York Times, Mashable, Gizmodo &amp; Boing Boing.</em></li>
 			</ul>
 		</div>
-		<div class="page-break"></div>
+		<!--<div class="page-break"></div>-->
 		<div class="Basic-Text-Frame">
 			<h3>Rose Institute of State and Local Government</h3>
 			<p class="dates">September 2006 - April 2010</p>
@@ -220,7 +225,7 @@
 				<li class="full-width-list">All-America Attorney, College Mock Trial</li>
 			</ul>
 		</div>
-		<div class="page-break"></div>
+		<!--<div class="page-break"></div>-->
 		<h4 class="more-info">Recognition &amp; Honors for Code for America</h4>
 		<div>
 			<ul class="two-column">
