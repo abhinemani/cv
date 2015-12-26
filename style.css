@@ -1,0 +1,53 @@
+body {font-family: 'Open Sans', sans-serif; border-top: 5px solid #990000; margin: 0;}
+#container {max-width: 800px; margin: 0 auto; padding: 20px 20px 0px 20px;}
+h1 {margin: 0;}
+h2 {font-size: 20px; } 
+h3 {font-size: 16px; display: inline;} 
+h4.contact-info {font-size: 14px; font-weight: 300;}
+h4.more-info {font-weight: 300; font-style: italic; margin-bottom: 5px;}
+p {margin: 0 auto 5px auto;}
+p.organization {font-size: 14px; font-weight: 500;}
+p.dates {font-size: 14px; font-weight: 300; font-style: italic; float: right;}
+p.previous-titles {font-size: 14px; font-weight: 300; font-style: italic;}
+p.detail {font-size: 13px;}
+h4.contact-info {font-weight: 300; margin: 0;;}
+ul {margin: 10px 0 20px 0;}
+li {font-size: 14px; line-height: 22px;}
+a {color: black; text-decoration: underline;}
+
+.alert {
+	background: #eee;
+	padding: 15px;	
+  	position: relative;
+	margin: 0 auto;
+	display: none;
+}
+.alert-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.alert p {font-size: 12px; padding-right: 65px;}
+
+.close_btn {
+	color: #000;
+	padding: 15px 0px 5px 10px;
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 40px;	
+}
+
+@media print {
+	body {border-top: none;}
+	h1 {font-size: 24px;}
+	h2 {font-size: 16px;} 
+	h3 {font-size: 14px; display: inline;} 
+	p.title, p.dates, p.previous-titles {font-size: 13px;}
+	li { font-size: 12px; }
+	.page-break { page-break-before: always; }
+	#container {padding: 10px 0 0 0;}
+	a {text-decoration: none;}
+	.alert {display: none;}
+	.alert-container {display: none;}
+	.alert-container p {display: none;}		
+}
