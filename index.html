@@ -10,11 +10,13 @@
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	
 	<style>
-	body {font-family: 'Open Sans', sans-serif;}
+	body {font-family: 'Open Sans', sans-serif; border-top: 5px solid #990000; margin: 0;}
 	#container {max-width: 800px; margin: 0 auto; padding: 20px 20px 0px 20px;}
 	h1 {margin: 0;}
-	h2 {font-size: 20px; padding-top: 0px;} 
+	h2 {font-size: 20px; } 
 	h3 {font-size: 16px; display: inline;} 
 	h4.contact-info {font-size: 14px; font-weight: 300;}
 	h4.more-info {font-weight: 300; font-style: italic; margin-bottom: 5px;}
@@ -27,7 +29,31 @@
 	ul {margin: 10px 0 20px 0;}
 	li {font-size: 14px; line-height: 22px;}
 	a {color: black; text-decoration: underline;}
+
+	.alert {
+		background: #eee;
+		padding: 15px;	
+	  	position: relative;
+		margin: 0 auto;
+		display: none;
+	}
+	.alert-container {
+	    max-width: 800px;
+	    margin: 0 auto;
+	}
+	.alert p {font-size: 12px; padding-right: 65px;}
+
+	.close_btn {
+		color: #000;
+		padding: 15px 0px 5px 10px;
+		display: block;
+		position: absolute;
+		top: 0px;
+		right: 40px;	
+	}
+	
 	@media print {
+		body {border-top: none;}
 		h1 {font-size: 24px;}
 		h2 {font-size: 16px;} 
 		h3 {font-size: 14px; display: inline;} 
@@ -36,6 +62,11 @@
 		.page-break { page-break-before: always; }
 		#container {padding: 10px 0 0 0;}
 		a {text-decoration: none;}
+		.alert {display: none;}
+		.alert-container {display: none;}
+		.alert-container p {display: none;}
+		
+		
 	}
 	</style>
 	<!-- Icons -->
@@ -51,8 +82,37 @@
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://abhinemani.com/icon114.png">
 	<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://abhinemani.com/icon144.png">
+	<script src="http://abhinemani.com/assets/js/vendor/jquery-1.9.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.min.js"></script>
+	<script type="text/javascript">
+
+	$(document).ready(function() {
+
+	  if ( $(window).width() > 300 ) {
+	    $('.alert').hide().delay(750).slideDown(400);
+	  };
+	  $('.close_btn').click(function() {
+	      $('.close_btn').fadeOut(0);
+	      $('.alert').slideUp(0);	
+	  });
+	  $('.print_btn').click(function() {
+	      $('.close_btn').fadeOut(0);
+	      $('.alert').slideUp(0);	
+	  });
+  
+	 });
+	</script>
+
+
 </head>
 <body id="Abhi-Nemani---Resume" xml:lang="en-US">
+	<div class="alert">
+		<div class="alert-container">
+	    <p style="padding-top:10px; color:#000;">I've designed this CV for ideal viewing online (mobile or desktop), as well as easy, formatted printing to <a href="javascript:window.print()" class="print_btn">PDF</a> (just select "Save as PDF") or to a <a href="javascript:window.print()" class="print_btn">printer</a>.</p>
+	    <a href="#" class="close_btn"><i class="fa fa-2x fa-times"></i></a>
+	</div>
+	</div><!-- /popup message  -->
+
 	<div id="container">
 		<h1>Abhi Nemani</h1>
 		<h4 class="contact-info">abhi.nemani@gmail.com | 618.322.2220 | <a href="abhinemani.com">abhinemani.com</a> | <a href="http://medium.com/@abhinemani">medium.com/@abhinemani</a> | Centralia, IL </h4>
@@ -66,7 +126,7 @@
 		</div>
 		<div>
 			<ul>
-				<li class="full-width-list">Led Los Angeles to #1 ranking for US open data cities in under one year, by publishing over 400 datasets; earned the city Platinum Open Data Certification by international data consortium, WCCD.</li>
+				<li class="full-width-list">Led Los Angeles to #1 ranking for US open data cities in under one year, by <a href="http://data.lacity.org">publishing over 400 datasets</a>; earned the city <a href="http://open.dataforcities.org/">Platinum Open Data Certification</a> by international data consortium, WCCD.</li>
 				<li class="full-width-list">Built <a href="http://lamayor.org/dashboard">Mayoral Dashboard</a>, which is used regularly by the Mayor and Senior Staff to increase performance and accountability; the dashboard has saved the city over $180K, and has been freely reused by other cities. </li>
 				<li class="full-width-list">Crafted the city's <a href="http://datala.github.io/od-policy">open data policy</a> in collaboration with national policy experts, which has been recognized as the most comprehensive in the country; launched national municipal CDO network to share best practices. </li>
 				<li class="full-width-list">Developed nationally-recognized analytics partnership with local universities to use data science to address policy issues including crime, building safety, and personnel.  </li>
@@ -89,9 +149,9 @@
 				<li class="full-width-list">Implemented fundraising strategy for a $10M+ budget, including foundation engagement, corporate sponsorship, and individual philanthropy. Managed and grew multi-million dollar grant relationships with Omidyar Network, Google.org, and other major national foundations. </li>
 				<li class="full-width-list">Spearheaded development of growth programs: the <a href="http://www.huffingtonpost.com/abhi-nemani/accelerating-san-francisc_b_1191477.html">first-of-its-kind civic startup accelerator,</a> leading to <a href="http://abhinemani.com/press/big-startup-wave/">dramatic growth in activity</a> in the space; the Peer Network, a collaborative platform for over 100 government change-agents; and the CfA Brigade, a now 10,000+ member community of volunteer civic technologists.</li>
 				<li class="full-width-list">Launched internationalization strategy of &quot;Code for All&quot; with various partners including the World Bank.</li>
-				<li class="full-width-list">Chaired Code for America Summit, the premier gathering of ~1,000 civic innovators from around the world, leading strategy, editorial, and design, growing attendance 275 percent and revenue 150 percent.</li>
+				<li class="full-width-list">Chaired <a href="https://www.codeforamerica.org/summit/">Code for America Summit</a>, the premier gathering of ~1,000 civic innovators from around the world, leading strategy, editorial, and design, growing attendance 275 percent and revenue 150 percent.</li>
 				<li class="full-width-list">Published <em>Beyond Transparency</em>, an anthology compiling dozens of case studies from civic leaders on open data.</li>
-				<li class="full-width-list">Built policy focus areas (e.g. public health) building product teams designed to develop reusable apps.</li>
+				<li class="full-width-list">Built <a href="https://www.codeforamerica.org/focus/">policy</a> focus areas (e.g. public health) building product teams designed to develop reusable apps.</li>
 				<li class="full-width-list">Designed branding campaigns featured in the <em>New York Times, Mashable, Gizmodo &amp; Boing Boing.</em></li>
 			</ul>
 		</div>
@@ -215,9 +275,22 @@
 		</div>
 		<div class="Basic-Text-Frame">
 			<h3>Oxford University</h3>
-			<p class="dates">September 2008 - December 2008</p>
+			<p class="dates">Sept 2008 - December 2008</p>
 			<p class="detail">Politics and History (Study Abroad)</p>
 		</div>
 	</div>
+	<script type="text/javascript">
+	$(document.body).on('mouseover', 'a[target!=_blank]:not(.local)', function (evt) {
+	    var a = $(this);
+	    var href = a.attr('href');
+	    var domain = href.match(/^https?:\/\/([^:\/]+)/);
+	    if (domain && domain[1] && domain[1] !== location.hostname) {
+	        a.attr('target', '_blank');
+	    } else {
+	        a.addClass('local');
+	    }
+	});
+	</script>
+
 </body>
 </html>
