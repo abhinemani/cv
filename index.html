@@ -1,246 +1,242 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<meta charset="utf-8" />
-	<title>Abhi Nemani - Curriculum Vitae</title>
-	<meta name="viewport" content="width=device-width">
-	<meta property="og:image" content="http://abhinemani.com/images/panda.png">
-	<meta name="twitter:description" content="Abhi Nemani is a writer, speaker, organizer, and technologist. He most recently served as the first Chief Data Officer for the City of Los Angeles, where he led the city's efforts to build an open and data-driven LA.">
-	<meta name="description" content="Abhi Nemani is a writer, speaker, organizer, and technologist. He most recently served as the first Chief Data Officer for the City of Los Angeles, where he led the city's efforts to build an open and data-driven LA.">
-	<meta name="HandheldFriendly" content="True">
-	<meta name="MobileOptimized" content="320">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="style.css">
+	<head>
+		<meta charset="utf-8" />
+		<title>Abhi Nemani - Curriculum Vitae</title>
+		<meta name="viewport" content="width=device-width">
+		<meta property="og:image" content="http://abhinemani.com/images/panda.png">
+		<meta name="twitter:description" content="Abhi Nemani is a writer, speaker, organizer, and technologist. He most recently served as the first Chief Data Officer for the City of Los Angeles, where he led the city's efforts to build an open and data-driven LA.">
+		<meta name="description" content="Abhi Nemani is a writer, speaker, organizer, and technologist. He most recently served as the first Chief Data Officer for the City of Los Angeles, where he led the city's efforts to build an open and data-driven LA.">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="style.css">
 	
-	<!-- Icons -->
-	<!-- 16x16 -->
-	<link rel="shortcut icon" href="http://abhinemani.com/favicon.png">
-	<!-- 32x32 -->
-	<link rel="shortcut icon" href="http://abhinemani.com/favicon.png">
-	<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
-	<link rel="apple-touch-icon-precomposed" href="http://abhinemani.com/favicon.png">
-	<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://abhinemani.com/icon72.png">
-	<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://abhinemani.com/icon114.png">
-	<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://abhinemani.com/icon144.png">
-	<script src="http://abhinemani.com/assets/js/vendor/jquery-1.9.1.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.min.js"></script>
-	<script type="text/javascript">
+		<!-- Icons -->
+		<!-- 16x16 -->
+		<link rel="shortcut icon" href="http://abhinemani.com/favicon.png">
+		<!-- 32x32 -->
+		<link rel="shortcut icon" href="http://abhinemani.com/favicon.png">
+		<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+		<link rel="apple-touch-icon-precomposed" href="http://abhinemani.com/favicon.png">
+		<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://abhinemani.com/icon72.png">
+		<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://abhinemani.com/icon114.png">
+		<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://abhinemani.com/icon144.png">
+		<script src="http://abhinemani.com/assets/js/vendor/jquery-1.9.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.min.js"></script>
+		<script type="text/javascript">
 
-	$(document).ready(function() {
+		$(document).ready(function() {
 
-	  if ( $(window).width() > 300 ) {
-	    $('.alert').hide().delay(750).slideDown(400);
-	  };
-	  $('.close_btn').click(function() {
-	      $('.close_btn').fadeOut(0);
-	      $('.alert').slideUp(0);	
-	  });
-	  $('.print_btn').click(function() {
-	      $('.close_btn').fadeOut(0);
-	      $('.alert').slideUp(0);	
-	  });
+		  if ( $(window).width() > 300 ) {
+		    $('.alert').hide().delay(750).slideDown(400);
+		  };
+		  $('.close_btn').click(function() {
+		      $('.close_btn').fadeOut(0);
+		      $('.alert').slideUp(0);	
+		  });
+		  $('.print_btn').click(function() {
+		      $('.close_btn').fadeOut(0);
+		      $('.alert').slideUp(0);	
+		  });
   
-	 });
-	 $(window).keydown(function(event) {
-	   if(event.ctrlKey||event.metaKey && event.keyCode == 80) { 
- 	      $('.alert').hide();	
- 	  };
-	 });
-	</script>
+		 });
+		 $(window).keydown(function(event) {
+		   if(event.ctrlKey||event.metaKey && event.keyCode == 80) { 
+	 	      $('.alert').hide();	
+	 	  };
+		 });
+		</script>
+	</head>
+	<body id="Abhi-Nemani---Resume" xml:lang="en-US">
+		<div class="alert">
+			<div class="alert-container">
+		    <p style="padding-top:10px; color:#000;">I've designed this CV for ideal viewing online (mobile or desktop), as well as easy, formatted printing to <a href="Nemani_CV.pdf" class="print_btn"><button>PDF</button></a> or <a href="javascript:window.print()" class="print_btn"><button>PAPER</button></a><br /><br />
+				Find me elsewhere:&nbsp; <a href="http://abhinemani.com/"><i class="fa fa-home"></i></a>&nbsp; &nbsp;<a href="http://twitter.com/abhinemani"><i class="fa fa-twitter"></i></a>&nbsp; &nbsp;<a href="http://linkedin.com/in/abhinemani"><i class="fa fa-linkedin"></i></a>&nbsp; &nbsp;<a href="http://github.com/abhinemani"><i class="fa fa-github"></i></a>&nbsp; &nbsp;<a href="http://medium.com/@abhinemani"><i class="fa fa-medium"></i></a></p>
+		    <a href="#" class="close_btn"><i class="fa fa-2x fa-times"></i></a>
+		</div>
+		</div><!-- /popup message  -->
 
-
-</head>
-<body id="Abhi-Nemani---Resume" xml:lang="en-US">
-	<div class="alert">
-		<div class="alert-container">
-	    <p style="padding-top:10px; color:#000;">I've designed this CV for ideal viewing online (mobile or desktop), as well as easy, formatted printing to <a href="Nemani_CV.pdf" class="print_btn"><button>PDF</button></a> <small>(just select "Save as PDF")</small> or <a href="javascript:window.print()" class="print_btn"><button>PAPER</button></a><br /><br />
-			Find me elsewhere:&nbsp; <a href="http://abhinemani.com/"><i class="fa fa-home"></i></a>&nbsp; &nbsp;<a href="http://twitter.com/abhinemani"><i class="fa fa-twitter"></i></a>&nbsp; &nbsp;<a href="http://linkedin.com/in/abhinemani"><i class="fa fa-linkedin"></i></a>&nbsp; &nbsp;<a href="http://github.com/abhinemani"><i class="fa fa-github"></i></a>&nbsp; &nbsp;<a href="http://medium.com/@abhinemani"><i class="fa fa-medium"></i></a></p>
-	    <a href="#" class="close_btn"><i class="fa fa-2x fa-times"></i></a>
-	</div>
-	</div><!-- /popup message  -->
-
-	<div id="container">
-		<h1>Abhi Nemani</h1>
-		<h4 class="contact-info">abhi.nemani@gmail.com | 618.322.2220 | <a href="abhinemani.com">abhinemani.com</a> | <a href="http://medium.com/@abhinemani">medium.com/@abhinemani</a> | Centralia, IL </h4>
-	
-	
-		<h2>EXPERIENCE</h2>
-		<div class="Basic-Text-Frame">
-			<h3 class="organization">City of Los Angeles (Mayor's Office)</h3>
-			<p class="dates">Sept 2014 - Oct 2015</p>
-			<p class="title">Chief Data Officer</p>
-		</div>
-		<div>
-			<ul>
-				<li class="full-width-list">Led Los Angeles to #1 ranking for US open data cities in under one year, by <a href="http://data.lacity.org">publishing over 400 datasets</a>; earned the <a href="http://open.dataforcities.org/">Platinum Open Data Certification</a> from international data consortium, WCCD.</li>
-				<li class="full-width-list">Built <a href="http://lamayor.org/dashboard">Mayoral Dashboard</a>, which is used regularly by the Mayor and Senior Staff to increase performance and accountability; the dashboard has saved the city over $180K, and has been freely reused by other cities. </li>
-				<li class="full-width-list">Crafted the city's <a href="http://datala.github.io/od-policy">Open Data Policy</a> in collaboration with national policy experts, which has been recognized as the most comprehensive in the country; launched national municipal CDO network to share best practices. </li>
-				<li class="full-width-list">Developed nationally-recognized analytics partnership with local universities to use data science to address policy issues including crime, building safety, and personnel.  </li>
-				<li class="full-width-list">Set up first-of-its-kind city data geohub (GIS) to share over 1,000 datasets more easily internally and externally.</li>
-				<li class="full-width-list">Mobilized the local volunteer community to include 10K+ members that host monthly events and app competitions focused on sustainable innovation; ran largest civic hackathon in the country (<a href="http://hackforla.org">Hack for LA</a>).</li>
-				<li class="full-width-list">Supported multiple departments&mdash;e.g. Personnel and Fire&mdash;in digital transformations through trainings and consultations to enhance citizen experience and reduce costs; earned LA the ranking of #1 Digital City.</li>
-				<li class="full-width-list">Created new technology units within the Mayor's Office for innovation through external fundraising ($250K+): a Digital Services Unit and Data Science Fellowships. </li>
-				<li class="full-width-list">Co-founded two independent non-profits to support sustainable innovation in the community.</li>
-			</ul>
-		</div>
-		<div class="Basic-Text-Frame">
-			<h3 class="organization">Code for America</h3>
-			<p class="dates">May 2010 - March 2014</p>
-			<p class="title">Co-Executive Director (Interim)</p>
-			<p class="previous-titles">Previously: Chief of Staff, Director of Strategy &amp; Communications</p>
-		</div>
-		<div>
-			<ul>
-				<li class="full-width-list">Helped build, launch, and run international non-profit, leading growth, product strategy, and assessment.</li>
-				<li class="full-width-list">Implemented fundraising strategy for a $10M+ budget, including foundation engagement, corporate sponsorship, and individual philanthropy. Managed and grew multi-million dollar grant relationships with Omidyar Network, Google.org, and other major national foundations. </li>
-				<li class="full-width-list">Spearheaded development of growth programs: the <a href="http://www.huffingtonpost.com/abhi-nemani/accelerating-san-francisc_b_1191477.html">first-of-its-kind civic startup accelerator,</a> leading to <a href="http://abhinemani.com/press/big-startup-wave/">dramatic growth in activity</a> in the space; the Peer Network, a collaborative platform for over 100 government change-agents; and the CfA Brigade, a now 10,000+ member community of volunteer civic technologists.</li>
-				<li class="full-width-list">Launched internationalization strategy of &quot;Code for All&quot; with various partners including the World Bank.</li>
-				<li class="full-width-list">Chaired <a href="https://www.codeforamerica.org/summit/">Code for America Summit</a>, the premier gathering of ~1,000 civic innovators from around the world, leading strategy, editorial, and design, growing attendance 275 percent and revenue 150 percent.</li>
-				<li class="full-width-list">Published <em>Beyond Transparency</em>, an anthology compiling dozens of case studies from civic leaders on open data.</li>
-				<li class="full-width-list">Built <a href="https://www.codeforamerica.org/focus/">policy</a> focus areas (e.g. public health) building product teams designed to develop reusable apps.</li>
-				<li class="full-width-list">Designed branding campaigns featured in the <em>New York Times, Mashable, Gizmodo &amp; Boing Boing.</em></li>
-			</ul>
-		</div>
-		<!--<div class="page-break"></div>-->
-		<div class="Basic-Text-Frame">
-			<h3>Rose Institute of State and Local Government</h3>
-			<p class="dates">September 2006 - April 2010</p>
-			<p class="title">Student Manager</p>
-		</div>
-		<div>
-			<ul>
-				<li class="full-width-list">Oversaw 30 student researchers, supervised project work, handled personnel, and coordinated budget of over $50,000 with senior staff, focused on government innovation and transparency research agenda.</li>
-				<li class="full-width-list">Led National Ballot Initiative open data project, researching and cataloging over 900 measures for public access, which led to publication of scholarly book, “Direct Democracy and the Courts,” published by Cambridge University.</li>
-				<li class="full-width-list">Led the Digital Archiving project of 20 student employees to publish hundreds of political documents online, becoming the first digital political library for the state of California.</li>
-			</ul>
-		</div>
-		<div class="Basic-Text-Frame">
-			<h3>Google</h3>
-			<p class="dates">June 2009 - August 2009</p>
-			<p class="title">Product Marketing</p>
-		</div>
-		<div>
-			<ul>
-				<li class="full-width-list">Developed social media strategy for integration into other and future enterprise marketing campaigns.</li>
-				<li class="full-width-list">Conducted market research, designed landing page, and built social tools for “Gone Google” campaign</li>
-				<li class="full-width-list">Developed B2B marketing strategy for a typically consumer product, driving adoption of social media marketing within the organization</li>
-			</ul>
-		</div>
-		<h2>COMMUNITY & INDUSTRY INVOLVEMENT</h2>
-		<div class="Basic-Text-Frame">
-			<h3>OpenGov Foundation</h3>
-			<p class="dates">May 2014 - Present</p>
-			<p class="title">Board Member (Vice-Chair)</p>
-		</div>
-		<div>
-			<ul class="two-column">
-				<li class="full-width-list">Advise Executive Director on growth, product, marketing, and management strategy.</li>
-				<li class="full-width-list">Support fundraising efforts from national foundations, and partnerships with local governments.</li>
-			</ul>
-		</div>
-		<div class="Basic-Text-Frame">
-			<h3>GovDelivery</h3>
-			<p class="dates">May 2014 - Present</p>
-			<p class="title">Civic Innovator-in-Residence</p>
-		</div>
-		<div>
-			<ul class="two-column">
-				<li class="full-width-list">Developed mergers and acquisitions strategy for broader product portfolio to deepen impact.</li>
-				<li class="full-width-list">Created curriculum for online government official training program, focused on innovation and open data.</li>
-				<li class="full-width-list">Prototyped new content distribution product line to deliver personalized government updates to citizens.</li>
-			</ul>
-		</div>
-		<h2>HONORS & RECOGNITIONS</h2>
-		<div>
-			<ul class="two-column">
-				<li class="full-width-list">Top 10 CDOs to Watch, Technical.ly</li>
-				<li class="full-width-list">Reviewer, Knight Foundation Community Innovation Challenge</li>
-				<li class="full-width-list">Mentor, University of Chicago Harris School of Public Policy</li>
-				<li class="full-width-list">Partner, Truman National Security Project</li>
-				<li class="full-width-list">Top 25 Angelenos, Social Media Week</li>
-				<li class="full-width-list">Member, Future of Urban Development Initiative of the World Economic Forum</li>
-				<li class="full-width-list">Blair Award for State and Local Government</li>
-				<li class="full-width-list">Edward J. Sexton Fellow; Philosophy, Politics, and Economics</li>
-				<li class="full-width-list">Harrison Fellow, Salvatori Center for the Study of Individual Freedom in the Modern World</li>
-				<li class="full-width-list">All-America Attorney, College Mock Trial</li>
-			</ul>
-		</div>
-		<!--<div class="page-break"></div>-->
-		<h4 class="more-info">Recognition &amp; Honors for Code for America</h4>
-		<div>
-			<ul class="two-column">
-				<li class="full-width-list">Government Technology Magazine: Change-makers</li>
-				<li class="full-width-list">2012 MDC Partners &amp; Wired Humanitarian Award</li>
-				<li class="full-width-list">MIT Lynch Award for Urban Affairs</li>
-				<li class="full-width-list">2012 Oxford Internet and Society Award</li>
-				<li class="full-width-list">White House Champions of Change</li>
-				<li class="full-width-list">Multiple Knight News Challenge Selections</li>
-			</ul>
-		</div>
-		<h4 class="more-info">Recognition &amp; Honors for City of Los Angeles</h4>
-		<div>
-			<ul class="two-column">
-				<li class="full-width-list">#1 Open Data City, US Open Data Census</li>
-				<li class="full-width-list">#1 Digital City, Government Technology Magazine</li>
-			</ul>
-		</div>
-		<h2>PUBLICATIONS</h2>
-		<div>
-			<ul>
-				<li class="full-width-list"><a href="http://www.esri.com/esri-news/arcnews/spring15articles/gis-hub-vision">GIS Hub Vision</a></span> | <span class="char-style-override-5">Esri ArcNews</span> (April 2015)</li>
-				<li class="full-width-list"><a href="https://medium.com/@abhinemani/small-city-pieces-loosely-joined-5202fb5a93e3">Small (City) Pieces, Loosely Joined</a></span> | <span class="char-style-override-5">Medium</span> (July 2014)</li>
-				<li class="full-width-list"><a href="http://www.govtech.com/data/7-Tactics-for-21st-Century-Cities.html%20">7 Tactics for 21st Century Government</a></span> | <span class="char-style-override-5">Government Magazine</span> (Oct 2013)</li>
-				<li class="full-width-list"><a href="http://cityminded.org/restoring-cities-engines-opportunity-data-tech-systems-change-9250">Restoring Cities as Engines for Opportunity</a></span> | <span class="char-style-override-5">CityMinded</span> (Sept 2013)</li>
-				<li class="full-width-list"><a href="http://www.govexec.com/state-local/2014/08/ahbi-nemani-civic-interest-action/90695/">Turning Civic Interest into Action</a></span> | <span class="char-style-override-5">Government Executive</span> (Aug 2014)</li>
-				<li class="full-width-list"><a href="http://techcrunch.com/2012/06/02/how-to-cash-in-on-government-as-a-platform/">Government as a Platform</span></a></span> | <span class="char-style-override-5">TechCrunch</span> (June 2012) </li>
-				<li class="full-width-list"><a href="http://www.huffingtonpost.com/abhi-nemani/accelerating-san-francisc_b_1191477.html">Accelerating San Francisco</span></a></span> | <span class="char-style-override-5">Huffington Post</span> (Jan 2013)</li>
-				<li class="full-width-list"><a href="http://opensource.com/government/10/12/code-america-new-kind-public-service">A New Kind of Public Service</span></a> | <span class="char-style-override-5">OpenSource.com</span> (January 2011)</li>
-			</ul>
-		</div>
-		<h2>PRESENTATIONS</h2>
-		<div>
-			<ul>
+		<div id="container">
+			<h1>Abhi Nemani</h1>
+			<h4 class="contact-info">abhi.nemani@gmail.com | 618.322.2220 | <a href="abhinemani.com">abhinemani.com</a> | <a href="http://medium.com/@abhinemani">medium.com/@abhinemani</a> | Centralia, IL </h4>
+			<h2>EXPERIENCE</h2>
+			<div class="Basic-Text-Frame">
+				<h3 class="organization">City of Los Angeles (Mayor's Office)</h3>
+				<p class="dates">Sept 2014 - Oct 2015</p>
+				<p class="title">Chief Data Officer</p>
+			</div>
+			<div>
+				<ul>
+					<li class="full-width-list">Led Los Angeles to #1 ranking for US open data cities in under one year, by <a href="http://data.lacity.org">publishing over 400 datasets</a>; earned the <a href="http://open.dataforcities.org/">Platinum Open Data Certification</a> from international data consortium, WCCD.</li>
+					<li class="full-width-list">Built <a href="http://lamayor.org/dashboard">Mayoral Dashboard</a>, which is used regularly by the Mayor and Senior Staff to increase performance and accountability; the dashboard has saved the city over $180K, and has been freely reused by other cities. </li>
+					<li class="full-width-list">Crafted the city's <a href="http://datala.github.io/od-policy">Open Data Policy</a> in collaboration with national policy experts, which has been recognized as the most comprehensive in the country; launched national municipal CDO network to share best practices. </li>
+					<li class="full-width-list">Developed nationally-recognized analytics partnership with local universities to use data science to address policy issues including crime, building safety, and personnel.  </li>
+					<li class="full-width-list">Set up first-of-its-kind city data geohub (GIS) to share over 1,000 datasets more easily internally and externally.</li>
+					<li class="full-width-list">Mobilized the local volunteer community to include 10K+ members that host monthly events and app competitions focused on sustainable innovation; ran largest civic hackathon in the country (<a href="http://hackforla.org">Hack for LA</a>).</li>
+					<li class="full-width-list">Supported multiple departments&mdash;e.g. Personnel and Fire&mdash;in digital transformations through trainings and consultations to enhance citizen experience and reduce costs; earned LA the ranking of #1 Digital City.</li>
+					<li class="full-width-list">Created new technology units within the Mayor's Office for innovation through external fundraising ($250K+): a Digital Services Unit and Data Science Fellowships. </li>
+					<li class="full-width-list">Co-founded two independent non-profits to support sustainable innovation in the community.</li>
+				</ul>
+			</div>
+			<div class="Basic-Text-Frame">
+				<h3 class="organization">Code for America</h3>
+				<p class="dates">May 2010 - March 2014</p>
+				<p class="title">Co-Executive Director (Interim)</p>
+				<p class="previous-titles">Previously: Chief of Staff, Director of Strategy &amp; Communications</p>
+			</div>
+			<div>
+				<ul>
+					<li class="full-width-list">Helped build, launch, and run international non-profit, leading growth, product strategy, and assessment.</li>
+					<li class="full-width-list">Implemented fundraising strategy for a $10M+ budget, including foundation engagement, corporate sponsorship, and individual philanthropy. Managed and grew multi-million dollar grant relationships with Omidyar Network, Google.org, and other major national foundations. </li>
+					<li class="full-width-list">Spearheaded development of growth programs: the <a href="http://www.huffingtonpost.com/abhi-nemani/accelerating-san-francisc_b_1191477.html">first-of-its-kind civic startup accelerator,</a> leading to <a href="http://abhinemani.com/press/big-startup-wave/">dramatic growth in activity</a> in the space; the Peer Network, a collaborative platform for over 100 government change-agents; and the CfA Brigade, a now 10,000+ member community of volunteer civic technologists.</li>
+					<li class="full-width-list">Launched internationalization strategy of &quot;Code for All&quot; with various partners including the World Bank.</li>
+					<li class="full-width-list">Chaired <a href="https://www.codeforamerica.org/summit/">Code for America Summit</a>, the premier gathering of ~1,000 civic innovators from around the world, leading strategy, editorial, and design, growing attendance 275 percent and revenue 150 percent.</li>
+					<li class="full-width-list">Published <em>Beyond Transparency</em>, an anthology compiling dozens of case studies from civic leaders on open data.</li>
+					<li class="full-width-list">Built <a href="https://www.codeforamerica.org/focus/">policy</a> focus areas (e.g. public health) building product teams designed to develop reusable apps.</li>
+					<li class="full-width-list">Designed branding campaigns featured in the <em>New York Times, Mashable, Gizmodo &amp; Boing Boing.</em></li>
+				</ul>
+			</div>
+			<!--<div class="page-break"></div>-->
+			<div class="Basic-Text-Frame">
+				<h3>Rose Institute of State and Local Government</h3>
+				<p class="dates">September 2006 - April 2010</p>
+				<p class="title">Student Manager</p>
+			</div>
+			<div>
+				<ul>
+					<li class="full-width-list">Oversaw 30 student researchers, supervised project work, handled personnel, and coordinated budget of over $50,000 with senior staff, focused on government innovation and transparency research agenda.</li>
+					<li class="full-width-list">Led National Ballot Initiative open data project, researching and cataloging over 900 measures for public access, which led to publication of scholarly book, “Direct Democracy and the Courts,” published by Cambridge University.</li>
+					<li class="full-width-list">Led the Digital Archiving project of 20 student employees to publish hundreds of political documents online, becoming the first digital political library for the state of California.</li>
+				</ul>
+			</div>
+			<div class="Basic-Text-Frame">
+				<h3>Google</h3>
+				<p class="dates">June 2009 - August 2009</p>
+				<p class="title">Product Marketing</p>
+			</div>
+			<div>
+				<ul>
+					<li class="full-width-list">Developed social media strategy for integration into other and future enterprise marketing campaigns.</li>
+					<li class="full-width-list">Conducted market research, designed landing page, and built social tools for “Gone Google” campaign</li>
+					<li class="full-width-list">Developed B2B marketing strategy for a typically consumer product, driving adoption of social media marketing within the organization</li>
+				</ul>
+			</div>
+			<h2>COMMUNITY & INDUSTRY INVOLVEMENT</h2>
+			<div class="Basic-Text-Frame">
+				<h3>OpenGov Foundation</h3>
+				<p class="dates">May 2014 - Present</p>
+				<p class="title">Board Member (Vice-Chair)</p>
+			</div>
+			<div>
+				<ul class="two-column">
+					<li class="full-width-list">Advise Executive Director on growth, product, marketing, and management strategy.</li>
+					<li class="full-width-list">Support fundraising efforts from national foundations, and partnerships with local governments.</li>
+				</ul>
+			</div>
+			<div class="Basic-Text-Frame">
+				<h3>GovDelivery</h3>
+				<p class="dates">May 2014 - Present</p>
+				<p class="title">Civic Innovator-in-Residence</p>
+			</div>
+			<div>
+				<ul class="two-column">
+					<li class="full-width-list">Developed mergers and acquisitions strategy for broader product portfolio to deepen impact.</li>
+					<li class="full-width-list">Created curriculum for online government official training program, focused on innovation and open data.</li>
+					<li class="full-width-list">Prototyped new content distribution product line to deliver personalized government updates to citizens.</li>
+				</ul>
+			</div>
+			<h2>HONORS & RECOGNITIONS</h2>
+			<div>
+				<ul class="two-column">
+					<li class="full-width-list">Top 10 CDOs to Watch, Technical.ly</li>
+					<li class="full-width-list">Reviewer, Knight Foundation Community Innovation Challenge</li>
+					<li class="full-width-list">Mentor, University of Chicago Harris School of Public Policy</li>
+					<li class="full-width-list">Partner, Truman National Security Project</li>
+					<li class="full-width-list">Top 25 Angelenos, Social Media Week</li>
+					<li class="full-width-list">Member, Future of Urban Development Initiative of the World Economic Forum</li>
+					<li class="full-width-list">Blair Award for State and Local Government</li>
+					<li class="full-width-list">Edward J. Sexton Fellow; Philosophy, Politics, and Economics</li>
+					<li class="full-width-list">Harrison Fellow, Salvatori Center for the Study of Individual Freedom in the Modern World</li>
+					<li class="full-width-list">All-America Attorney, College Mock Trial</li>
+				</ul>
+			</div>
+			<!--<div class="page-break"></div>-->
+			<h4 class="more-info">Recognition &amp; Honors for Code for America</h4>
+			<div>
+				<ul class="two-column">
+					<li class="full-width-list">Government Technology Magazine: Change-makers</li>
+					<li class="full-width-list">2012 MDC Partners &amp; Wired Humanitarian Award</li>
+					<li class="full-width-list">MIT Lynch Award for Urban Affairs</li>
+					<li class="full-width-list">2012 Oxford Internet and Society Award</li>
+					<li class="full-width-list">White House Champions of Change</li>
+					<li class="full-width-list">Multiple Knight News Challenge Selections</li>
+				</ul>
+			</div>
+			<h4 class="more-info">Recognition &amp; Honors for City of Los Angeles</h4>
+			<div>
+				<ul class="two-column">
+					<li class="full-width-list">#1 Open Data City, US Open Data Census</li>
+					<li class="full-width-list">#1 Digital City, Government Technology Magazine</li>
+				</ul>
+			</div>
+			<h2>PUBLICATIONS</h2>
+			<div>
+				<ul>
+					<li class="full-width-list"><a href="http://www.esri.com/esri-news/arcnews/spring15articles/gis-hub-vision">GIS Hub Vision</a></span> | <span class="char-style-override-5">Esri ArcNews</span> (April 2015)</li>
+					<li class="full-width-list"><a href="https://medium.com/@abhinemani/small-city-pieces-loosely-joined-5202fb5a93e3">Small (City) Pieces, Loosely Joined</a></span> | <span class="char-style-override-5">Medium</span> (July 2014)</li>
+					<li class="full-width-list"><a href="http://www.govtech.com/data/7-Tactics-for-21st-Century-Cities.html%20">7 Tactics for 21st Century Government</a></span> | <span class="char-style-override-5">Government Magazine</span> (Oct 2013)</li>
+					<li class="full-width-list"><a href="http://cityminded.org/restoring-cities-engines-opportunity-data-tech-systems-change-9250">Restoring Cities as Engines for Opportunity</a></span> | <span class="char-style-override-5">CityMinded</span> (Sept 2013)</li>
+					<li class="full-width-list"><a href="http://www.govexec.com/state-local/2014/08/ahbi-nemani-civic-interest-action/90695/">Turning Civic Interest into Action</a></span> | <span class="char-style-override-5">Government Executive</span> (Aug 2014)</li>
+					<li class="full-width-list"><a href="http://techcrunch.com/2012/06/02/how-to-cash-in-on-government-as-a-platform/">Government as a Platform</span></a></span> | <span class="char-style-override-5">TechCrunch</span> (June 2012) </li>
+					<li class="full-width-list"><a href="http://www.huffingtonpost.com/abhi-nemani/accelerating-san-francisc_b_1191477.html">Accelerating San Francisco</span></a></span> | <span class="char-style-override-5">Huffington Post</span> (Jan 2013)</li>
+					<li class="full-width-list"><a href="http://opensource.com/government/10/12/code-america-new-kind-public-service">A New Kind of Public Service</span></a> | <span class="char-style-override-5">OpenSource.com</span> (January 2011)</li>
+				</ul>
+			</div>
+			<h2>PRESENTATIONS</h2>
+			<div>
+				<ul>
 				
-				<li class="full-width-list">Federal Communications Summit (Washington DC), <a href="https://medium.com/@abhinemani/government-is-what-you-make-of-it-d836a6a9353d">“Government is What We Make of It”</a></li>
-				<li class="full-width-list">Fabric of the City (Paris), <a href="https://medium.com/@abhinemani/the-open-data-ecosystem-cd7f1c13bc0f">“Building an Open Data Community”</a></li>
-				<li class="full-width-list">Urnisus College (Philadelphia), Inauguration Address for New President, "New Civics"</li>
-				<li class="full-width-list">SXSW (Austin, TX), “Hacking for Sustainable Cities”</li>
-				<li class="full-width-list">Big Kansas City, <a href="https://www.youtube.com/watch?v=OOh4XVBWWXQ">“Disruption as a Public Service”</a></li>
-				<li class="full-width-list">MAD (Hong Kong), “Civic Startups”</li>
-				<li class="full-width-list">Claremont McKenna College, <a href="https://medium.com/@abhinemani/technology-civics-the-liberal-arts-31bdc93fb86#.rv009lhm8">“Technology &amp; the Liberal Arts”</a></li>
-				<li class="full-width-list">Health DataPalooza (Washington DC), “Core Principles of Open Data”</li>
-				<li class="full-width-list">Digital Cities (Buenos Aires), “A Tale of Two Cities”</li>
-				<li class="full-width-list">Agile Alliance (Nashville, TN), “The Principles of Agile and of Government”</li>
-			</ul>
+					<li class="full-width-list">Federal Communications Summit (Washington DC), <a href="https://medium.com/@abhinemani/government-is-what-you-make-of-it-d836a6a9353d">“Government is What We Make of It”</a></li>
+					<li class="full-width-list">Fabric of the City (Paris), <a href="https://medium.com/@abhinemani/the-open-data-ecosystem-cd7f1c13bc0f">“Building an Open Data Community”</a></li>
+					<li class="full-width-list">Urnisus College (Philadelphia), Inauguration Address for New President, "New Civics"</li>
+					<li class="full-width-list">SXSW (Austin, TX), “Hacking for Sustainable Cities”</li>
+					<li class="full-width-list">Big Kansas City, <a href="https://www.youtube.com/watch?v=OOh4XVBWWXQ">“Disruption as a Public Service”</a></li>
+					<li class="full-width-list">MAD (Hong Kong), “Civic Startups”</li>
+					<li class="full-width-list">Claremont McKenna College, <a href="https://medium.com/@abhinemani/technology-civics-the-liberal-arts-31bdc93fb86#.rv009lhm8">“Technology &amp; the Liberal Arts”</a></li>
+					<li class="full-width-list">Health DataPalooza (Washington DC), “Core Principles of Open Data”</li>
+					<li class="full-width-list">Digital Cities (Buenos Aires), “A Tale of Two Cities”</li>
+					<li class="full-width-list">Agile Alliance (Nashville, TN), “The Principles of Agile and of Government”</li>
+				</ul>
+			</div>
+			<h2>EDUCATION</h2>
+			<div class="Basic-Text-Frame">
+				<h3>Claremont McKenna College</h3>
+				<p class="dates">August 2006 - May 2010</p>
+				<p class="detail">B.A. Philosophy, Politics &amp; Economics <em>Honors</em>; Magna Cum Laude</p>
+			</div>
+			<div class="Basic-Text-Frame">
+				<h3>Oxford University</h3>
+				<p class="dates">Sept 2008 - December 2008</p>
+				<p class="detail">Politics and History (Study Abroad)</p>
+			</div>
 		</div>
-		<h2>EDUCATION</h2>
-		<div class="Basic-Text-Frame">
-			<h3>Claremont McKenna College</h3>
-			<p class="dates">August 2006 - May 2010</p>
-			<p class="detail">B.A. Philosophy, Politics &amp; Economics <em>Honors</em>; Magna Cum Laude</p>
-		</div>
-		<div class="Basic-Text-Frame">
-			<h3>Oxford University</h3>
-			<p class="dates">Sept 2008 - December 2008</p>
-			<p class="detail">Politics and History (Study Abroad)</p>
-		</div>
-	</div>
-	<script type="text/javascript">
-	$(document.body).on('mouseover', 'a[target!=_blank]:not(.local)', function (evt) {
-	    var a = $(this);
-	    var href = a.attr('href');
-	    var domain = href.match(/^https?:\/\/([^:\/]+)/);
-	    if (domain && domain[1] && domain[1] !== location.hostname) {
-	        a.attr('target', '_blank');
-	    } else {
-	        a.addClass('local');
-	    }
-	});
-	</script>
+		<script type="text/javascript">
+		$(document.body).on('mouseover', 'a[target!=_blank]:not(.local)', function (evt) {
+		    var a = $(this);
+		    var href = a.attr('href');
+		    var domain = href.match(/^https?:\/\/([^:\/]+)/);
+		    if (domain && domain[1] && domain[1] !== location.hostname) {
+		        a.attr('target', '_blank');
+		    } else {
+		        a.addClass('local');
+		    }
+		});
+		</script>
 
-</body>
+	</body>
 </html>
