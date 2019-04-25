@@ -118,5 +118,6 @@ a:hover {
 	a {text-decoration: none; border-bottom: none;}
 	.alert {display: none;}
 	.alert-container {display: none;}
-	.alert-container p {display: none;}		
+	.alert-container p {display: none;}	
+	.no-print {display: none;}	
 }
