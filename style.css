@@ -106,6 +106,8 @@ a:hover {
 	right: 40px;	
 }
 
+.only-print {display: none;}
+
 @media print {
 	body {border-top: none;}
 	h1 {font-size: 40px;}
@@ -121,4 +123,6 @@ a:hover {
 	.alert-container {display: none;}
 	.alert-container p {display: none;}	
 	.no-print {display: none;}	
+	.only-print {display: block;}
+	
 }
