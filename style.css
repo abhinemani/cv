@@ -110,9 +110,10 @@ a:hover {
 	body {border-top: none;}
 	h1 {font-size: 40px;}
 	h2 {font-size: 20px;} 
-	h3 {font-size: 14px; display: inline;} 
-	p.title, p.dates, p.previous-titles {font-size: 13px;}
-	li { font-size: 12px; }
+	h3 {font-size: 13px; display: inline;} 
+	p.organization {font-size: 13px; margin-top: 3px;}
+	p.title, p.dates, p.previous-titles {font-size: 12px;}
+	li { font-size: 11px; line-height: 19px;}
 	.page-break { page-break-before: always; }
 	#container {padding: 10px 0 0 0;}
 	a {text-decoration: none; border-bottom: none;}
