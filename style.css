@@ -1,5 +1,5 @@
 body {
-	font-family: 'Fira Sans', sans-serif; 
+	font-family: 'Istok Web', sans-serif; 
 	margin: 0;
 }
 #container {
@@ -11,15 +11,22 @@ h1 {
 	margin: 0;
 	font-weight: 900;
 	font-size: 2.5em;
+	font-family: 'Francois One', sans-serif; 
+	
 }
 h2 {
 	font-size: 24px;
 	font-weight: 900;
+	font-family: 'Francois One', sans-serif; 
+	margin: 10px 0 10px 0;
+	
 } 
 h3 {
 	font-size: 16px; 
 	display: inline;
 	font-weight: 900;
+	font-family: 'Francois One', sans-serif; 
+	
 } 
 h4.contact-info {
 	font-size: 14px; 
@@ -30,14 +37,16 @@ h4.more-info {
 	font-style: italic; 
 	margin: 0px 0px;
 }
+
 p {
 	margin: 0 auto 5px auto;
+	font-size: 14px; line-height: 18px;
 }
-
+	
 p.organization {
 	font-size: 14px;
 	margin-top: 5px;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 p.dates {
@@ -118,7 +127,7 @@ a:hover {
 	h3 {font-size: 13px; display: inline;} 
 	p.organization {font-size: 13px; margin-top: 3px;}
 	p.title, p.dates, p.previous-titles {font-size: 12px;}
-	li { font-size: 11px; line-height: 19px;}
+	li { font-size: 14px; line-height: 19px;}
 	.page-break { page-break-before: always; }
 	#container {padding: 10px 0 0 0;}
 	a {text-decoration: none; border-bottom: none;}
