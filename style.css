@@ -9,31 +9,35 @@ body {
 }
 h1 {
 	margin: 0;
-	font-weight: 900;
+	font-weight: 700;
 	font-size: 2.5em;
-	font-family: 'Francois One', sans-serif; 
+	font-family: 'Oswald', sans-serif; 
+	font-weight: 700;
+	
 	
 }
 h2 {
 	font-size: 24px;
-	font-weight: 900;
-	font-family: 'Francois One', sans-serif; 
+	font-family: 'Oswald', sans-serif; 
 	margin: 10px 0 10px 0;
+	font-weight: 500;
 	
 } 
 h3 {
 	font-size: 16px; 
 	display: inline;
-	font-weight: 900;
-	font-family: 'Francois One', sans-serif; 
+	font-weight: 0;
+	font-family: 'Oswald', sans-serif; 
+	font-weight: 200;
+	
 	
 } 
 h4.contact-info {
 	font-size: 14px; 
-	font-weight: 300;
+	font-weight: 200;
 }
 h4.more-info {
-	font-weight: 300; 
+	font-weight: 200; 
 	font-style: italic; 
 	margin: 0px 0px;
 }
@@ -44,9 +48,11 @@ p {
 }
 	
 p.organization {
-	font-size: 14px;
+	font-size: 16px;
 	margin-top: 5px;
-	font-weight: 700;
+	font-weight: 500;
+	font-family: 'Oswald', sans-serif; 
+	
 }
 
 p.dates {
