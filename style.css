@@ -24,13 +24,11 @@ h2 {
 	
 } 
 h3 {
-	font-size: 16px; 
+	font-size: 18px; 
 	display: inline;
 	font-weight: 0;
 	font-family: 'Oswald', sans-serif; 
-	font-weight: 300;
-	
-	
+	font-weight: 300;	
 } 
 h4.contact-info {
 	font-size: 14px; 
@@ -48,11 +46,10 @@ p {
 }
 	
 p.organization {
-	font-size: 16px;
+	font-size: 18px;
 	margin-top: 5px;
 	font-weight: 500;
 	font-family: 'Oswald', sans-serif; 
-	
 }
 
 p.dates {
@@ -130,8 +127,8 @@ a:hover {
 	body {border-top: none;}
 	h1 {font-size: 40px;}
 	h2 {font-size: 20px;} 
-	h3 {font-size: 13px; display: inline;} 
-	p.organization {font-size: 13px; margin-top: 3px;}
+	h3 {font-size: 14px; display: inline;} 
+	p.organization {font-size: 14px; margin-top: 3px;}
 	p.title, p.dates, p.previous-titles {font-size: 12px;}
 	li { font-size: 14px; line-height: 19px;}
 	.page-break { page-break-before: always; }
