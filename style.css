@@ -5,7 +5,7 @@ body {
 #container {
 	max-width: 800px; 
 	margin: 0 auto; 
-	padding: 20px 20px 20px 20px;
+	padding: 20px 20px 0px 20px;
 }
 h1 {
 	margin: 0;
@@ -28,7 +28,7 @@ h3 {
 	display: inline;
 	font-weight: 0;
 	font-family: 'Oswald', sans-serif; 
-	font-weight: 200;
+	font-weight: 300;
 	
 	
 } 
@@ -135,7 +135,7 @@ a:hover {
 	p.title, p.dates, p.previous-titles {font-size: 12px;}
 	li { font-size: 14px; line-height: 19px;}
 	.page-break { page-break-before: always; }
-	#container {padding: 10px 0 10px 0;}
+	#container {padding: 10px 0 0 0;}
 	a {text-decoration: none; border-bottom: none;}
 	.alert {display: none;}
 	.alert-container {display: none;}
