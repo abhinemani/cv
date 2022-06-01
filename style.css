@@ -26,11 +26,16 @@ h2 {
 	
 } 
 h3 {
-	font-size: 16px; 
+	font-size: 18px; 
 	display: inline;
 	font-family: 'aktiv-grotesk-condensed', sans-serif; 
 	font-weight: 300;	
 } 
+
+.many-orgs h3 {
+	font-size: 16px;
+	
+}
 h4.contact-info {
 	font-size: 14px; 
 	font-weight: 200;
@@ -123,6 +128,10 @@ a:hover {
 }
 
 
+@page {
+  margin: 0.45in;
+}
+
 .only-print {display: none;}
 
 @media print {
@@ -134,6 +143,7 @@ a:hover {
 	p.title, p.dates, p.previous-titles {font-size: 12px;}
 	li { font-size: 14px; line-height: 19px;}
 	.page-break { page-break-before: always; }
+	.many-orgs h3.title {font-size: 14px;}
 	#container {padding: 10px 0 0 0;}
 	a {text-decoration: none; border-bottom: none;}
 	.alert {display: none;}
@@ -141,9 +151,4 @@ a:hover {
 	.alert-container p {display: none;}	
 	.no-print {display: none;}	
 	.only-print {display: block;}
-	
-}
-
-@page {
-  margin: 0.45in;
 }
