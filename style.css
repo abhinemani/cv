@@ -1,5 +1,7 @@
 body {
-	font-family: 'Istok Web', sans-serif; 
+	font-family: 'aktiv-grotesk', sans-serif;
+font-weight: 300;
+font-style: normal;
 	margin: 0;
 }
 #container {
@@ -11,23 +13,22 @@ h1 {
 	margin: 0;
 	font-weight: 700;
 	font-size: 2.5em;
-	font-family: 'Oswald', sans-serif; 
+	font-family: 'aktiv-grotesk-condensed', sans-serif; 
 	font-weight: 700;
 	
 	
 }
 h2 {
 	font-size: 24px;
-	font-family: 'Oswald', sans-serif; 
-	margin: 10px 0 10px 0;
-	font-weight: 500;
+	font-family: 'aktiv-grotesk-condensed', sans-serif; 
+	margin: 15px 0 10px 0;
+	font-weight: 700;
 	
 } 
 h3 {
-	font-size: 18px; 
+	font-size: 16px; 
 	display: inline;
-	font-weight: 0;
-	font-family: 'Oswald', sans-serif; 
+	font-family: 'aktiv-grotesk-condensed', sans-serif; 
 	font-weight: 300;	
 } 
 h4.contact-info {
@@ -48,8 +49,8 @@ p {
 p.organization {
 	font-size: 18px;
 	margin-top: 5px;
-	font-weight: 500;
-	font-family: 'Oswald', sans-serif; 
+	font-weight: 700;
+	font-family: 'aktiv-grotesk-condensed', sans-serif; 
 }
 
 p.dates {
@@ -121,6 +122,7 @@ a:hover {
 	margin-bottom: 10px;
 }
 
+
 .only-print {display: none;}
 
 @media print {
@@ -140,4 +142,8 @@ a:hover {
 	.no-print {display: none;}	
 	.only-print {display: block;}
 	
+}
+
+@page {
+  margin: 0.45in;
 }
