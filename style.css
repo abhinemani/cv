@@ -138,7 +138,7 @@ a:hover {
 	h2 {font-size: 20px;} 
 	h3 {font-size: 14px; display: inline;} 
 	p {font-size: 13px; line-height: 19px;}
-	p.organization {font-size: 14px; margin-top: 3px;}
+	p.organization {font-size: 18px; margin-top: 3px;}
 	p.title, p.dates, p.previous-titles {font-size: 12px;}
 	li { font-size: 13px; line-height: 19px;}
 	.page-break { page-break-before: always; }
@@ -150,4 +150,13 @@ a:hover {
 	.alert-container p {display: none;}	
 	.no-print {display: none;}	
 	.only-print {display: block;}
+}
+
+
+@media only screen and (max-width: 600px) {
+  p.dates {
+	  float: none;
+	  font-style: normal;
+	  margin-top: 5px;
+  }
 }
