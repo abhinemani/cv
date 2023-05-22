@@ -82,13 +82,16 @@ li {
 	font-size: 14px; 
 	line-height: 22px;
 }
+
 a {
-	color: black; 
+	color: #0b73ab; 
 	text-decoration: none; 
-	border-bottom: 1px dotted #b3b3b1;
+	border-bottom: 1.5px dotted #b3b3b1;
 }
+
 a:hover {
-	border-bottom: 1px solid #b3b3b1;
+	border-bottom: 1.5px solid #0b73ab;
+	color: #0b73ab;
 }
 
 .alert {
@@ -125,6 +128,9 @@ a:hover {
 	margin-bottom: 10px;
 }
 
+h4.contact-info a {
+	border-bottom: none;
+}
 
 @page {
   margin: 0.5in;
@@ -144,7 +150,8 @@ a:hover {
 	.page-break { page-break-before: always; }
 	.many-orgs h3.title {font-size: 14px;}
 	#container {padding: 10px 0 0 0;}
-	a {text-decoration: none; border-bottom: none;}
+	a {text-decoration: none; border-bottom: none; color: black;}
+	a.company {text-decoration: none; border-bottom: 1.5px solid #b3b3b1;}
 	.alert {display: none;}
 	.alert-container {display: none;}
 	.alert-container p {display: none;}	
