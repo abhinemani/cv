@@ -71,6 +71,10 @@
     fill: currentColor;
 }
 
+.top-bar .link-text {
+    display: none;
+}
+
 @media print {
     .top-bar {
         display: none;
@@ -810,12 +814,13 @@ li:last-child {
     }
     
     .contact {
-		font-size: .75rem;
-		line-height: 1.4;
+        display: none;
+        flex-direction: column;
+        gap: var(--spacing-xs);
     }
     
     .separator {
-        margin: 0 0.25rem;
+        display: none;
     }
     
     .job-header {
