@@ -810,13 +810,12 @@ li:last-child {
     }
     
     .contact {
-        display: flex;
-        flex-direction: column;
-        gap: var(--spacing-xs);
+		font-size: .75rem;
+		line-height: 1.4;
     }
     
     .separator {
-        display: none;
+        margin: 0 0.25rem;
     }
     
     .job-header {
