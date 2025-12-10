@@ -137,9 +137,10 @@ li:last-child { margin-bottom: 0; }
     .top-bar .link-text { display: none; }
     .resume { padding: var(--space-md); }
     h1 { font-size: 1.75rem; }
-    .contact { font-size: 0.75rem; line-height: 1.4; }
+    .contact { font-size: 0.75rem; line-height: 1.4; display: none; }
     .separator { margin: 0 0.25rem; }
     .job-header { flex-direction: column; }
     .dates { order: -1; margin-bottom: var(--space-xs); }
     .skills-grid, .education-grid, .recognition-grid, .additional-grid { grid-template-columns: 1fr; }
+	
 }
