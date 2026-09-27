@@ -120,7 +120,7 @@ li:last-child { margin-bottom: 0; }
     a { color: inherit; text-decoration: none; }
     .job, section { margin-bottom: 8pt;}
     h2, h3, h4 { page-break-after: avoid; break-after: avoid; }
-    .job, .education-item, .skill-category { page-break-inside: avoid; break-inside: avoid; }
+    .job, .education-item, .skill-category, .education { page-break-inside: avoid; break-inside: avoid; }
     .job-header { page-break-after: avoid; break-after: avoid; }
     li { page-break-inside: avoid; break-inside: avoid; }
     ul { margin: 4pt 0; }
