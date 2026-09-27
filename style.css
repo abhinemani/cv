@@ -76,6 +76,7 @@ li:last-child { margin-bottom: 0; }
 
 /* === Grids === */
 .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-sm); }
+.skills-grid.cols-4 { grid-template-columns: repeat(4, 1fr); }
 .skill-category h4 { margin-bottom: var(--space-xs); }
 .skill-category p { font-size: 0.8125rem; color: var(--text-secondary); line-height: 1.5; margin: 0; }
 
@@ -94,8 +95,8 @@ li:last-child { margin-bottom: 0; }
 .affiliations-list li { font-size: 0.875rem; margin-bottom: var(--space-xs); }
 
 .publications ul, .presentations ul { list-style: none; padding: 0; }
-.publications li, .presentations li { font-size: 0.875rem; padding-left: 1rem; position: relative; }
-.publications li::before, .presentations li::before { content: "–"; position: absolute; left: 0; color: var(--text-muted); }
+.publications li, .presentations li { font-size: 0.875rem; padding-left: 1rem; text-indent: -1rem; }
+.publications li::before, .presentations li::before { content: "\2013\00a0"; color: var(--text-muted); }
 
 .speaking-summary { font-size: 0.875rem; color: var(--text-secondary); }
 
@@ -118,7 +119,10 @@ li:last-child { margin-bottom: 0; }
     
     a { color: inherit; text-decoration: none; }
     .job, section { margin-bottom: 8pt;}
-    h2 { page-break-after: avoid; }
+    h2, h3, h4 { page-break-after: avoid; break-after: avoid; }
+    .job, .education-item, .skill-category { page-break-inside: avoid; break-inside: avoid; }
+    .job-header { page-break-after: avoid; break-after: avoid; }
+    li { page-break-inside: avoid; break-inside: avoid; }
     ul { margin: 4pt 0; }
     li { margin-bottom: 3pt; }
     .skills-grid { gap: 8pt; }
