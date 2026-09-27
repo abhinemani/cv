@@ -104,19 +104,19 @@ li:last-child { margin-bottom: 0; }
 @media print {
     .top-bar { display: none; }
     .resume { max-width: none; padding: 0; }
-    
+
     h1 { font-size: 18pt; }
     h2 { font-size: 11pt; margin: 10pt 0 5pt; border-bottom-width: 1pt; }
     h3 { font-size: 9.5pt; }
     h4 { font-size: 8.5pt; }
-    
+
     .job-title { font-size: 10.5pt; }
     .company { font-size: 9.5pt; }
     p, li { font-size: 9pt; line-height: 1.5; }
     .dates, .company-desc, .previous-titles { font-size: 8.5pt; }
     .skill-category p, .affiliations-list li, .recognition-col li, .additional-col li, .speaking-summary { font-size: 8.5pt; }
 
-    
+
     a { color: inherit; text-decoration: none; }
     .job, section { margin-bottom: 8pt;}
     h2, h3, h4 { page-break-after: avoid; break-after: avoid; }
@@ -128,7 +128,7 @@ li:last-child { margin-bottom: 0; }
     .skills-grid { gap: 8pt; }
     .education-grid { gap: 4pt 16pt; }
     .recognition-grid, .additional-grid { gap: 12pt; }
-    
+
     .contact a, .company, .company-desc, .dates, .previous-titles, .skill-category p, .speaking-summary { color: #333; }
 }
 
@@ -146,5 +146,5 @@ li:last-child { margin-bottom: 0; }
     .job-header { flex-direction: column; }
     .dates { order: -1; margin-bottom: var(--space-xs); }
     .skills-grid, .education-grid, .recognition-grid, .additional-grid { grid-template-columns: 1fr; }
-	
+
 }
