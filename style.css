@@ -113,8 +113,9 @@ li:last-child { margin-bottom: 0; }
     .job-title { font-size: 10.5pt; }
     .company { font-size: 9.5pt; }
     p, li { font-size: 9pt; line-height: 1.5; }
-    .dates, .company-desc, .previous-titles { font-size: 8.5pt; }
-    .skill-category p, .affiliations-list li, .recognition-col li, .additional-col li, .speaking-summary { font-size: 8.5pt; }
+    .dates, .company-desc, .previous-titles, .education-item .dates { font-size: 8.5pt; }
+    .education-item .degree { font-size: 9pt; }
+    .skill-category p, .affiliations-list li, .publications li, .presentations li, .recognition-col li, .additional-col li, .speaking-summary { font-size: 8.5pt; }
 
 
     a { color: inherit; text-decoration: none; }
