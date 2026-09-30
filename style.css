@@ -130,7 +130,7 @@ li:last-child { margin-bottom: 0; }
     .education-grid { gap: 4pt 16pt; }
     .recognition-grid, .additional-grid { gap: 12pt; }
 
-    .contact a, .company, .company-desc, .dates, .previous-titles, .skill-category p, .speaking-summary { color: #333; }
+    .contact a, .company, .company-desc, .dates, .previous-titles, .education-item .degree, .skill-category p, .speaking-summary { color: #333; }
 }
 
 @page { margin: 0.5in 0.6in; }
