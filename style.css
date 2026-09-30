@@ -112,7 +112,7 @@ li:last-child { margin-bottom: 0; }
 
     .job-title { font-size: 10.5pt; }
     .company { font-size: 9.5pt; }
-    p, li { font-size: 9pt; line-height: 1.5; }
+    p, li { font-size: 9pt; line-height: 1.45; }
     .dates, .company-desc, .previous-titles { font-size: 8.5pt; }
     .skill-category p, .affiliations-list li, .recognition-col li, .additional-col li, .speaking-summary { font-size: 8.5pt; }
 
